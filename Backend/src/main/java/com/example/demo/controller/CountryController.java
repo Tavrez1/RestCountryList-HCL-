@@ -4,7 +4,7 @@ import com.example.demo.service.CountryService;
 import org.springframework.web.bind.annotation.*;
 
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://restcountrylist.netlify.app/")
 @RestController
 @RequestMapping("/api")
 public class CountryController {
