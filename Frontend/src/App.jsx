@@ -20,8 +20,8 @@ function App() {
     loadCountries();
   }, []);
   return (
-    <div className="flex flex-col  m-auto">
-      <div className='text-4xl m-auto '>🌍 Rest Countries Explorer</div>
+    <div className="flex flex-col  m-auto  ">
+      <div className='text-4xl p-3 bg-gray-900 w-full text-center '>🌍 Rest Countries Explorer</div>
       <SearchBar className="mt-5" onSearch={loadCountries} />
       <CountryList countries={countries} />
     </div>

@@ -3,9 +3,9 @@ export default function CountryList({ countries }) {
         <table className="table ">
             <thead className="border-2">
                 <tr>
-                    <th className="border-2">Code</th>
-                    <th className="border-2">Country</th>
-                    <th className="border-2">Region</th>
+                    <th className="border-2 bg-blue-500">Code</th>
+                    <th className="border-2 bg-blue-500">Country</th>
+                    <th className="border-2 bg-blue-500">Region</th>
                 </tr>
             </thead>
             <tbody>
